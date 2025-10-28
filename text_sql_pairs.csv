@@ -1,0 +1,7 @@
+question,sql
+List all employees,SELECT * FROM employees;
+Show employees with salary greater than 50000,SELECT * FROM employees WHERE salary > 50000;
+List customer names and cities,"SELECT name, city FROM customers;"
+Show customers from Delhi,SELECT * FROM customers WHERE city = 'Delhi';
+Count orders for each customer,"SELECT customer_id, COUNT(*) FROM orders GROUP BY customer_id;"
+Show products priced above 100,SELECT * FROM products WHERE price > 100;

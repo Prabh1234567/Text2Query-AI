@@ -1,0 +1,21 @@
+question,sql
+Show all employees,SELECT * FROM employees;
+List all employees,SELECT * FROM employees;
+Display employee list,SELECT * FROM employees;
+Get all employee records,SELECT * FROM employees;
+Show employees with salary above 50000,SELECT * FROM employees WHERE salary > 50000;
+List employees earning more than 50000,SELECT * FROM employees WHERE salary > 50000;
+Get employees having salary over 50000,SELECT * FROM employees WHERE salary > 50000;
+Show all products,SELECT * FROM products;
+List all products with price over 100,SELECT * FROM products WHERE price > 100;
+Find products costing more than 100,SELECT * FROM products WHERE price > 100;
+Show products that cost above 100,SELECT * FROM products WHERE price > 100;
+List customer names and cities,"SELECT name, city FROM customers;"
+Get all customers and their cities,"SELECT name, city FROM customers;"
+Show name and city of each customer,"SELECT name, city FROM customers;"
+Find customers from London,SELECT * FROM customers WHERE city = 'London';
+Get all London customers,SELECT * FROM customers WHERE city = 'London';
+Show customers living in London,SELECT * FROM customers WHERE city = 'London';
+Show all departments,SELECT DISTINCT department FROM employees;
+List unique departments,SELECT DISTINCT department FROM employees;
+Get all department names,SELECT DISTINCT department FROM employees;
